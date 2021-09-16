@@ -1,18 +1,91 @@
-<h1><%= @article.title %></h1>
+<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-blog">
+  <div class="container-fluid container">
+    <a class="navbar-brand" href="#">
+    <b>Ruby</b>
+    China
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">博客</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">社区</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            分类
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">分类一</a></li>
+            <li><a class="dropdown-item" href="#">分类二</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">分类三</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">友链</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="请输入你想搜索的内容" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">search</button>
+      </form>
+    </div>
+  </div>
+</nav>
 
-<p><%= @article.body %></p>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-9">
+      <div class="card">
+      <div class="card-body">
 
-<ul>
-  <li><%= link_to "Edit", edit_article_path(@article) %></li>
-  <li><%= link_to "Destroy", article_path(@article),
+      <h1><%= @article.title %></h1>
+
+      <p><%= @article.body %></p>
+
+      </div>
+    </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="card">
+      <div class="card-body">
+        <ul class="destory">
+          <li><%= link_to "添加", edit_article_path(@article) %></li>
+          <li><%= link_to "删除", article_path(@article),
                   method: :delete,
-                  data: { confirm: "Are you sure?" } %></li>
-</ul>
+                  data: { confirm: "确定删除文章吗?" } %></li>
+        </ul>
+      </div>
+    </div>
+    </div>
 
-<h2>评论中心</h2>
-<%= render @article.comments %>
+    <div class="col-sm-9">
+      <div class="card">
+      <div class="card-body">
 
-<h2>增加一条新评论:</h2>
-<%= render 'comments/form' %>
+    <h2>评论中心</h2>
+    <%= render @article.comments %>
+    </div>
+    </div>
+    </div>
 
-<h1>但愿你的眼睛只看到笑容</h1>
+
+    <div class="col-sm-9">
+      <div class="card">
+      <div class="card-body">
+
+    <h2>增加一条新评论:</h2>
+    <%= render 'comments/form' %>
+
+    </div>
+    </div>
+    </div>
+
+  </div>
+</div>
