@@ -1,0 +1,484 @@
+// Place all the styles related to the Japans controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+ /* 头部Header */
+.header{
+     width: 100%;
+    height: 98px;
+    display: flex;
+    align-items: center;
+    background-color: pink;
+    .left{
+        display: flex;
+        align-items: center;
+        background-color: pink;
+        .pic img{
+                width: 53px;
+                height: 53px;
+                background: #378CC2;
+                border-radius: 50%;
+                margin-left: 32px;
+        }
+        .con{
+            p{
+                margin-bottom: 0 !important;
+            }
+            p:nth-child(1){
+                font-size: 22px;
+                font-family: Verdana;
+                font-weight: bold;
+                color: #378CC2;
+            }
+            p:nth-child(2){
+                font-size: 14px;
+                font-family: Verdana;
+                font-weight: bold;
+                color: #1C1C1C;
+            }
+        }
+    }
+    .right{
+        flex: 1;
+        text-align: right;
+        a{
+            margin-left: 53PX;
+        }
+        a:nth-child(2){
+            margin-right: 46px;
+        }
+    }
+}
+
+/* 导航栏nav */
+.navbar{
+    width: 100%;
+    height: 94px; 
+    
+}
+.navbar ul{
+    margin-left: 58PX;
+}
+
+/* 轮播图carouseljapans */
+.carouseljapans{
+    width: 100%;
+    height: 654px;
+    background-color: aqua;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.carouseljapans .left{
+    -webkit-flex: 6;
+    flex: 6;
+    margin-left: 211px;
+}
+.carouseljapans .right{
+    width: 778px ;
+    height: 506px;
+    background: rgba(218, 221, 226, 0.82);
+    -webkit-flex: 4;
+    flex: 4;
+    margin-right: 180px;
+    display: -webkit-flex;
+    display:         flex;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+    flex-direction: column;
+}
+.carouseljapans .right .title{
+    margin-top: 22px;
+}
+.carouseljapans .right form{
+    width: 400px;
+    .right-bottom{
+        display: table;
+        margin: 0 auto;
+        button{
+            margin: 0 15px;
+        }
+    }
+}
+
+/* latest job */
+.con1 .container{
+    margin-top: 50px;
+    .title{
+        font-size: 46px;
+        font-family: Microsoft YaHei;
+        font-weight: bold;
+        color: #2E2E2E;
+    }
+    img{
+    width: 100%;
+    height: 260.5px;
+    background: chocolate;
+    }
+    .bottom{
+        display: table;
+        margin: 20px auto 0;
+        span{
+            margin: 0 2px;
+        }
+    }
+}
+
+
+// Services
+.con2{
+    background: #EBEBEB;
+    .container{
+        margin-top: 50px;
+        .left{
+            img{
+                background: cornflowerblue;
+                height: 260px;
+            }
+        }
+        .right{
+            height: 300px;
+            background: rgba(0, 0, 0, 0.65);
+            .card-title{
+                font-size: 24px;
+                font-family: Microsoft YaHei;
+                font-weight: bold;
+                color: #0A82B4;
+            }
+            .striping{
+                width: 208px;
+                height: 1px;
+                background: #FFFFFF;
+                display: table;
+                margin: 0 auto;
+            }
+            .card-text{
+                font-size: 18px;
+                font-family: Microsoft YaHei;
+                font-weight: bold;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+.con3{
+    margin-top: 50px;
+    img{
+        width: 100px;
+        height: 100px;
+        background: crimson;
+        display: table;
+        margin: 0 auto;
+    }
+    .card{
+        background: none ;
+        border: none;
+    }
+}
+
+.con4{
+    background: #EBEBEB;
+    .con4-title{
+        font-size: 46px;
+        font-family: Microsoft YaHei;
+        font-weight: bold;
+        color: #2E2E2E;
+    }
+    img{
+        width: 200px;
+        height: 200px;
+        background: crimson;
+        display: table;
+        margin: 0 auto;
+    }
+    .card{
+        background: none ;
+        border: none;
+    }
+}
+
+.con5{
+    margin-top: 50px;
+    height: 500px;
+    .con-title{
+        text-align: center;
+        font-size: 44px;
+        font-family: Microsoft YaHei;
+        font-weight: bold;
+        color: #2E2E2E;
+        line-height: 42px;
+    }
+    .row{
+        margin-top: 40px;
+    }
+    .bottom{
+        display: table;
+        margin: 10px auto 0;
+        span{
+            margin: 0 2px;
+        }
+    }
+    .card{
+        background: #FFFFFF;
+        box-shadow: 0px 4px 5px 0px #CFCFCF;
+        border-radius: 0 0 30px 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.con{
+    //   display: -webkit-flex;
+    //   display:         flex;
+    //   -webkit-align-items: center;
+    //           align-items: center;
+    //   -webkit-justify-content: center;
+    //           justify-content: center;
+    }
+    .con .title{
+      font-size: 46px;
+      font-family: Microsoft YaHei;
+      font-weight: bold;
+      color: #2E2E2E;
+    }
+    .con ul{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        margin: 0 20px;
+    }
+    
+    // services
+    .con2 .title{
+        font-size: 46px;
+        font-family: Microsoft YaHei;
+        font-weight: bold;
+        color: #2E2E2E;
+    }

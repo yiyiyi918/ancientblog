@@ -1,0 +1,121 @@
+// Place all the styles related to the Tokyos controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+// carousel 
+.carousel-tokyos{
+    width: 100%;
+   
+    background-color: bisque;
+   
+    .con-tokyos{
+        height: 577px;
+    display: -webkit-flex;
+    display:         flex;
+    -webkit-align-items: center;
+          align-items: center;
+    -webkit-justify-content: center;
+          justify-content: center;
+    font-size: 42px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    }
+}
+
+// jumbotron
+.jumbotron-tokyos{
+    width: 100%;
+    height: 507px;
+    background: #D0D0D0;
+    font-size: 32px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #010101;
+    line-height: 42px;
+}
+
+// container
+.container-tokyos{
+    height: 400px;
+    background: #F8F5F0;
+    .header-tokyos{
+        .p1{
+            font-size: 48px;
+            font-family: Microsoft YaHei;
+            font-weight: bold;
+            color: #010101;
+        }
+        .p2{
+            font-size: 16px;
+            font-family: Microsoft YaHei;
+            font-weight: bold;
+            color: #74706D;
+        }
+    }
+    .row-tokyos{
+        margin-top: 26px;
+    }
+    .btn-primary{
+        display: table;
+        margin: 20px auto 0px;
+    }
+}
+
+// container-company
+.container-company{
+    width: 100%;
+    height: 490px;
+    background: #D0D0D0;
+    .row-company{
+        .com-header{
+            // margin: 0 auto;
+            font-size: 34px;
+            font-family: Microsoft YaHei;
+            font-weight: bold;
+            color: #010101;
+            text-align: center;
+        }
+        .video{
+            width: 500px;
+            height: 280px;
+            display: block;
+            clear: both;
+            margin: 0 auto;
+        }
+    }
+    .download-company{
+        height: 100%;
+        display: -webkit-flex;
+        display:         flex;
+        -webkit-align-items: center;
+                align-items: center;
+        -webkit-justify-content: center;
+                justify-content: center;
+        img{
+            background: chocolate;
+            height: 86px;
+        }
+    }
+    .bottom{
+        margin: 0 auto;
+        height: 59px;
+        font-size: 24px;
+        font-family: Microsoft YaHei;
+        font-weight: bold;
+        color: #010101;
+        line-height: 33px;
+        text-align: center;
+    }
+}
+
+.article-container{
+    width: 100%;
+    height: 756px;
+    background: #585858;
+    padding-top: 40PX;
+        .btn-primary{
+            display: table;
+            margin: 20px auto 0px;
+        }
+}
